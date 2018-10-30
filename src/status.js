@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 
-function useSiginStatus(status) {
+function useSigninStatus(status) {
 
     const [isSignin, Update] = useState(status);
 
@@ -20,4 +20,4 @@ function useSiginStatus(status) {
     }
 }
 
-export default useSiginStatus;
+export default useSigninStatus;

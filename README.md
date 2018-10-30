@@ -7,13 +7,13 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Signin from './signin';
 import Counter from './counter';
-import useSiginstatus from './status';
+import useSigninStatus from './status';
 
 function App(props) {
 
   const [value, Setvalue] = useState(0);
 
-  let status = useSiginstatus(false)
+  let status = useSigninStatus(false)
 
 
   function Incvalue() {
