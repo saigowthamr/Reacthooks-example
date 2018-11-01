@@ -39,19 +39,17 @@ button{
   cursor: pointer;
   color: #050505;
   position: relative;
-text-shadow: 1px 3px 4px #363731;
-    border: 1px solid #ff9405;
     padding: 1rem;
 }
 
 .link::after{
-    content: "";
+       content: "";
     position: absolute;
-    bottom: 0;
+    bottom: 17px;
     left: 0;
     height: 3px;
     width: 100%;
-        background-color: #06d765;
+    background-color: #bfc481;
 
 }
 
